@@ -1,6 +1,6 @@
 let boxes = document.querySelectorAll(".box");
 let re = document.querySelector("#re");
-let new = document.querySelector("#new");
+let new1 = document.querySelector("#new");
 let msgcont = document.querySelector(".msg-cont");
 let msg = document.querySelector("#msg");
 
@@ -21,7 +21,7 @@ const winpatterns = [
 const reset = () => {
     turnO = true ;
     enablebox();
-    msgcont.classList.add("hide";)
+    msgcont.classList.add("hide");
 };
 boxes.forEach((box) =>{
     box.addEventListener("click", () =>{
@@ -71,5 +71,5 @@ const checkwinner = () =>  {
     }
 };
 
-new.addEventListener("click",re);
+new1.addEventListener("click",re);
 re.addEventListener("click",re);
