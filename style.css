@@ -35,3 +35,11 @@ body {
     color: #4d0314;
 }
 
+#re {
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: rgb(16, 15, 15);
+    color: beige;
+    border-radius: 1rem;
+    border: none;
+}
